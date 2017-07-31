@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface head : UIView
-
+@property (nonatomic, strong) NSTimer *timer;
 @end

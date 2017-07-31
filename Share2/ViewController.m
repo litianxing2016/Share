@@ -134,7 +134,6 @@
     UIImage *image31 = [UIImage imageNamed:@"checkbox_checked"];
     [but3 setImage:image30 forState:UIControlStateNormal];
     [but3 setImage:image31 forState:UIControlStateSelected];
-//    [but3 setBackgroundImage:image30 forState:UIControlStateNormal];
     [but3 addTarget:self action:@selector(button:) forControlEvents:UIControlEventTouchUpInside];
     [vi3 addSubview:but3];
     
