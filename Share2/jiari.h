@@ -1,13 +1,13 @@
 //
-//  ViewController1.h
+//  jiari.h
 //  Share2
 //
 //  Created by LiTianYang on 2017/7/31.
 //  Copyright © 2017年 LiTianYang. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ViewController.h"
 
-@interface ViewController1 : UIViewController
+@interface jiari : UIViewController
 
 @end
