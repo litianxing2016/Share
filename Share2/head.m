@@ -37,7 +37,7 @@
     sv.showsHorizontalScrollIndicator = NO;
     sv.showsVerticalScrollIndicator = NO;
     sv.delegate = self;
-    //
+    
     pc = [[UIPageControl alloc] initWithFrame:CGRectMake(0, 90, 394, 50)];
     [self addSubview:pc];
     pc.numberOfPages = 4;
