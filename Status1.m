@@ -9,7 +9,7 @@
 #import "Status1.h"
 
 @implementation Status1
-#pragma mark 根据字典初始化微博对象
+#pragma mark 根据字典初始化对象
 -(Status1 *)initWithDictionary:(NSDictionary *)dic{
     if(self=[super init]){
         self.imaName=dic[@"imaName"];
@@ -27,7 +27,7 @@
     return self;
 }
 
-#pragma mark 初始化微博对象（静态方法）
+#pragma mark 初始化对象（静态方法）
 +(Status1 *)statusWithDictionary:(NSDictionary *)dic{
     Status1 *status=[[Status1 alloc]initWithDictionary:dic];
     return status;

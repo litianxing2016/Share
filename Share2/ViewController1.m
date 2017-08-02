@@ -37,6 +37,7 @@
     head *vie = [[head alloc]initWithFrame:CGRectMake(10, 0, 414-20, 150)];
     
     _tableView.tableHeaderView = vie;
+    _tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
     
 }
 - (void)initData
@@ -82,7 +83,10 @@
 {
     if (indexPath.section == 0 && indexPath.row == 0) {
         jiari *NewView = [[jiari alloc]init];
+        self.hidesBottomBarWhenPushed = YES;
         [self.navigationController pushViewController:NewView animated:NO];
+        self.hidesBottomBarWhenPushed = NO;
+        
     }
 }
 /*

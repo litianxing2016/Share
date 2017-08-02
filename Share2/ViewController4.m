@@ -30,6 +30,8 @@
     _tableView.dataSource = self;
     
     [self.view addSubview:_tableView];
+    _tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+    
 }
 
 - (void)initData

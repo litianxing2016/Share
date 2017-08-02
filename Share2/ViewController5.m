@@ -7,6 +7,11 @@
 //
 
 #import "ViewController5.h"
+#import "wdsc.h"
+#import "wdxx.h"
+#import "wdtj.h"
+#import "yxtz.h"
+#import "shezhi.h"
 
 @interface ViewController5 ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -78,7 +83,8 @@
     
     tableView.tableHeaderView = vie;
     //关闭滑动
-    tableView.userInteractionEnabled = NO;
+    tableView.scrollEnabled = NO;
+    tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -183,6 +189,40 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
     return 10;
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row == 0) {
+        wdsc *NewView = [[wdsc alloc]init];
+        self.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:NewView animated:NO];
+        self.hidesBottomBarWhenPushed = NO;
+    }
+    if (indexPath.row == 1) {
+        wdxx *NewView = [[wdxx alloc]init];
+        self.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:NewView animated:NO];
+        self.hidesBottomBarWhenPushed = NO;
+    }
+    if (indexPath.row == 2) {
+        wdtj *NewView = [[wdtj alloc]init];
+        self.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:NewView animated:NO];
+        self.hidesBottomBarWhenPushed = NO;
+    }
+    if (indexPath.row == 3) {
+        yxtz *NewView = [[yxtz alloc]init];
+        self.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:NewView animated:NO];
+        self.hidesBottomBarWhenPushed = NO;
+    }
+    if (indexPath.row == 4) {
+        shezhi *NewView = [[shezhi alloc]init];
+        self.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:NewView animated:NO];
+        self.hidesBottomBarWhenPushed = NO;
+    }
+    
 }
 /*红烧肉 豆角茄子 番茄炒蛋 青椒肉丝
 #pragma mark - Navigation

@@ -23,6 +23,7 @@
     [super viewDidLoad];
     [self initData];
     
+    
     self.navigationItem.title = @"SHARE";
     self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:NSForegroundColorAttributeName];
     
@@ -102,13 +103,13 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 10;
 }
--(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (indexPath.section == 0 && indexPath.row == 0) {
-        jiari *NewView = [[jiari alloc]init];
-        [self.navigationController pushViewController:NewView animated:NO];
-    }
-}
+//-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    if (indexPath.section == 0 && indexPath.row == 0) {
+//        jiari *NewView = [[jiari alloc]init];
+//        [self.navigationController pushViewController:NewView animated:NO];
+//    }
+//}
 /*
  #pragma mark - Navigation
  

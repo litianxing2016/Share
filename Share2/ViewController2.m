@@ -7,6 +7,7 @@
 //
 
 #import "ViewController2.h"
+#import "fabiaoViewController.h"
 
 @interface ViewController2 ()
 
@@ -21,6 +22,11 @@
     
     
     
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"返回"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:nil];
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"发表.jpg"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(fabiao)];
+    
+    //===============================================================================================
     
     UISearchBar * bar = [[UISearchBar alloc]initWithFrame:CGRectMake(10, 70, 390, 60)];
     bar.searchBarStyle = UISearchBarStyleMinimal;
@@ -192,7 +198,11 @@
     
     
 }
-
+- (void)fabiao
+{
+    fabiaoViewController *NewView = [[fabiaoViewController alloc]init];
+    [self.navigationController pushViewController:NewView animated:NO];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

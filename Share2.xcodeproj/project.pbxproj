@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		930396D91F3077E600DCA5D0 /* fabiaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396D81F3077E600DCA5D0 /* fabiaoViewController.m */; };
+		930396DC1F30B2DB00DCA5D0 /* tupian.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396DB1F30B2DB00DCA5D0 /* tupian.m */; };
+		930396DF1F30B32200DCA5D0 /* MycollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396DE1F30B32200DCA5D0 /* MycollViewCell.m */; };
+		930396E21F30BF6100DCA5D0 /* wdtj.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396E11F30BF6100DCA5D0 /* wdtj.m */; };
+		930396E51F30BF7900DCA5D0 /* wdxx.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396E41F30BF7900DCA5D0 /* wdxx.m */; };
+		930396E81F30BF9200DCA5D0 /* wdsc.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396E71F30BF9200DCA5D0 /* wdsc.m */; };
+		930396EB1F30BFA000DCA5D0 /* yxtz.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396EA1F30BFA000DCA5D0 /* yxtz.m */; };
+		930396EE1F30BFAB00DCA5D0 /* shezhi.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396ED1F30BFAB00DCA5D0 /* shezhi.m */; };
+		930396F11F31587C00DCA5D0 /* scCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396F01F31587C00DCA5D0 /* scCell.m */; };
+		930396F41F31702D00DCA5D0 /* sz_jbzl.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396F31F31702D00DCA5D0 /* sz_jbzl.m */; };
+		930396F71F31703B00DCA5D0 /* sz_xgmm.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396F61F31703B00DCA5D0 /* sz_xgmm.m */; };
+		930396FA1F31704B00DCA5D0 /* sz_xxsz.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396F91F31704B00DCA5D0 /* sz_xxsz.m */; };
 		930AC5511F2EDF220049E61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930AC5501F2EDF220049E61B /* Assets.xcassets */; };
 		930AC55D1F2F0DE90049E61B /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 930AC55C1F2F0DE90049E61B /* ViewController1.m */; };
 		930AC5631F2F102E0049E61B /* jiari.m in Sources */ = {isa = PBXBuildFile; fileRef = 930AC5621F2F102E0049E61B /* jiari.m */; };
@@ -49,6 +61,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		930396D71F3077E600DCA5D0 /* fabiaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fabiaoViewController.h; sourceTree = "<group>"; };
+		930396D81F3077E600DCA5D0 /* fabiaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fabiaoViewController.m; sourceTree = "<group>"; };
+		930396DA1F30B2DB00DCA5D0 /* tupian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tupian.h; sourceTree = "<group>"; };
+		930396DB1F30B2DB00DCA5D0 /* tupian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tupian.m; sourceTree = "<group>"; };
+		930396DD1F30B32200DCA5D0 /* MycollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MycollViewCell.h; sourceTree = "<group>"; };
+		930396DE1F30B32200DCA5D0 /* MycollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MycollViewCell.m; sourceTree = "<group>"; };
+		930396E01F30BF6100DCA5D0 /* wdtj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wdtj.h; sourceTree = "<group>"; };
+		930396E11F30BF6100DCA5D0 /* wdtj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wdtj.m; sourceTree = "<group>"; };
+		930396E31F30BF7900DCA5D0 /* wdxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wdxx.h; sourceTree = "<group>"; };
+		930396E41F30BF7900DCA5D0 /* wdxx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wdxx.m; sourceTree = "<group>"; };
+		930396E61F30BF9200DCA5D0 /* wdsc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wdsc.h; sourceTree = "<group>"; };
+		930396E71F30BF9200DCA5D0 /* wdsc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wdsc.m; sourceTree = "<group>"; };
+		930396E91F30BFA000DCA5D0 /* yxtz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yxtz.h; sourceTree = "<group>"; };
+		930396EA1F30BFA000DCA5D0 /* yxtz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yxtz.m; sourceTree = "<group>"; };
+		930396EC1F30BFAB00DCA5D0 /* shezhi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shezhi.h; sourceTree = "<group>"; };
+		930396ED1F30BFAB00DCA5D0 /* shezhi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shezhi.m; sourceTree = "<group>"; };
+		930396EF1F31587C00DCA5D0 /* scCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scCell.h; sourceTree = "<group>"; };
+		930396F01F31587C00DCA5D0 /* scCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scCell.m; sourceTree = "<group>"; };
+		930396F21F31702D00DCA5D0 /* sz_jbzl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sz_jbzl.h; sourceTree = "<group>"; };
+		930396F31F31702D00DCA5D0 /* sz_jbzl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sz_jbzl.m; sourceTree = "<group>"; };
+		930396F51F31703B00DCA5D0 /* sz_xgmm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sz_xgmm.h; sourceTree = "<group>"; };
+		930396F61F31703B00DCA5D0 /* sz_xgmm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sz_xgmm.m; sourceTree = "<group>"; };
+		930396F81F31704B00DCA5D0 /* sz_xxsz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sz_xxsz.h; sourceTree = "<group>"; };
+		930396F91F31704B00DCA5D0 /* sz_xxsz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sz_xxsz.m; sourceTree = "<group>"; };
 		930AC5501F2EDF220049E61B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		930AC55B1F2F0DE90049E61B /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
 		930AC55C1F2F0DE90049E61B /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
@@ -146,6 +182,24 @@
 			children = (
 				93524BC11F29C8F7002B9956 /* ViewController5.h */,
 				93524BC21F29C8F7002B9956 /* ViewController5.m */,
+				930396E61F30BF9200DCA5D0 /* wdsc.h */,
+				930396E71F30BF9200DCA5D0 /* wdsc.m */,
+				930396EF1F31587C00DCA5D0 /* scCell.h */,
+				930396F01F31587C00DCA5D0 /* scCell.m */,
+				930396E31F30BF7900DCA5D0 /* wdxx.h */,
+				930396E41F30BF7900DCA5D0 /* wdxx.m */,
+				930396E01F30BF6100DCA5D0 /* wdtj.h */,
+				930396E11F30BF6100DCA5D0 /* wdtj.m */,
+				930396E91F30BFA000DCA5D0 /* yxtz.h */,
+				930396EA1F30BFA000DCA5D0 /* yxtz.m */,
+				930396EC1F30BFAB00DCA5D0 /* shezhi.h */,
+				930396ED1F30BFAB00DCA5D0 /* shezhi.m */,
+				930396F21F31702D00DCA5D0 /* sz_jbzl.h */,
+				930396F31F31702D00DCA5D0 /* sz_jbzl.m */,
+				930396F51F31703B00DCA5D0 /* sz_xgmm.h */,
+				930396F61F31703B00DCA5D0 /* sz_xgmm.m */,
+				930396F81F31704B00DCA5D0 /* sz_xxsz.h */,
+				930396F91F31704B00DCA5D0 /* sz_xxsz.m */,
 			);
 			name = "个人信息";
 			sourceTree = "<group>";
@@ -250,6 +304,12 @@
 			children = (
 				93524BB81F29C8E8002B9956 /* ViewController2.h */,
 				93524BB91F29C8E8002B9956 /* ViewController2.m */,
+				930396D71F3077E600DCA5D0 /* fabiaoViewController.h */,
+				930396D81F3077E600DCA5D0 /* fabiaoViewController.m */,
+				930396DA1F30B2DB00DCA5D0 /* tupian.h */,
+				930396DB1F30B2DB00DCA5D0 /* tupian.m */,
+				930396DD1F30B32200DCA5D0 /* MycollViewCell.h */,
+				930396DE1F30B32200DCA5D0 /* MycollViewCell.m */,
 			);
 			name = "搜索";
 			sourceTree = "<group>";
@@ -389,18 +449,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				930396EB1F30BFA000DCA5D0 /* yxtz.m in Sources */,
+				930396F71F31703B00DCA5D0 /* sz_xgmm.m in Sources */,
+				930396F11F31587C00DCA5D0 /* scCell.m in Sources */,
+				930396EE1F30BFAB00DCA5D0 /* shezhi.m in Sources */,
+				930396E51F30BF7900DCA5D0 /* wdxx.m in Sources */,
 				93524B801F297D7B002B9956 /* ViewController.m in Sources */,
 				93524B7D1F297D7B002B9956 /* AppDelegate.m in Sources */,
+				930396D91F3077E600DCA5D0 /* fabiaoViewController.m in Sources */,
 				930B9A2F1F2ACD9900A65C61 /* Data3.m in Sources */,
+				930396F41F31702D00DCA5D0 /* sz_jbzl.m in Sources */,
 				930B9A291F2AC77700A65C61 /* TableViewCell2.m in Sources */,
 				93EB3F471F2A0FE5008DF89B /* head.m in Sources */,
 				93524BB41F29C827002B9956 /* MyViewController.m in Sources */,
 				930AC5631F2F102E0049E61B /* jiari.m in Sources */,
+				930396DC1F30B2DB00DCA5D0 /* tupian.m in Sources */,
 				93524B7A1F297D7B002B9956 /* main.m in Sources */,
+				930396E81F30BF9200DCA5D0 /* wdsc.m in Sources */,
+				930396DF1F30B32200DCA5D0 /* MycollViewCell.m in Sources */,
 				93524BC31F29C8F7002B9956 /* ViewController5.m in Sources */,
+				930396FA1F31704B00DCA5D0 /* sz_xxsz.m in Sources */,
 				930AC55D1F2F0DE90049E61B /* ViewController1.m in Sources */,
 				93524BBA1F29C8E8002B9956 /* ViewController2.m in Sources */,
 				93524BCC1F29D2E3002B9956 /* TableViewCell1.m in Sources */,
+				930396E21F30BF6100DCA5D0 /* wdtj.m in Sources */,
 				93524BBD1F29C8ED002B9956 /* ViewController3.m in Sources */,
 				93524BC01F29C8F2002B9956 /* ViewController4.m in Sources */,
 				93524BCF1F29D987002B9956 /* Status1.m in Sources */,
