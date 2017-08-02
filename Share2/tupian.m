@@ -55,12 +55,12 @@ forSupplementaryViewOfKind:UICollectionElementKindSectionHeader
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     MycollViewCell *cell = (MycollViewCell *)[collectionView cellForItemAtIndexPath:indexPath];
-    if (cell.is == YES) {
+    if ([cell.is isEqualToValue:@YES]) {
         cell.imagV.image = [UIImage imageNamed:@"333-1"];
-        cell.is = NO;
+        cell.is = @NO;
     } else {
         cell.imagV.image = [UIImage imageNamed:@"333-0"];
-        cell.is = YES;
+        cell.is = @YES;
     }
 }
 -(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath

@@ -15,7 +15,7 @@
     if (self) {
         self.imagV = [[UIImageView alloc] init];
         [self.contentView addSubview:_imagV];
-        self.is = YES;
+        self.is = @YES;
     }
     return self;
 }

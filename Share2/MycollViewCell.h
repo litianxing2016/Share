@@ -10,5 +10,5 @@
 
 @interface MycollViewCell : UICollectionViewCell
 @property(nonatomic,strong)UIImageView *imagV;
-@property NSInteger *is;
+@property NSNumber *is;
 @end
