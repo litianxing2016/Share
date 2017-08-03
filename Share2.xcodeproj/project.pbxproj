@@ -25,6 +25,13 @@
 		9303971D1F32A90E00DCA5D0 /* PopoverAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 930397101F32A90E00DCA5D0 /* PopoverAction.m */; };
 		9303971E1F32A90E00DCA5D0 /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 930397121F32A90E00DCA5D0 /* PopoverView.m */; };
 		9303971F1F32A90E00DCA5D0 /* PopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 930397141F32A90E00DCA5D0 /* PopoverViewCell.m */; };
+		9303972E1F32C13800DCA5D0 /* bubbleMine.png in Resources */ = {isa = PBXBuildFile; fileRef = 930397221F32C13800DCA5D0 /* bubbleMine.png */; };
+		9303972F1F32C13800DCA5D0 /* bubbleMine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 930397231F32C13800DCA5D0 /* bubbleMine@2x.png */; };
+		930397301F32C13800DCA5D0 /* bubbleSomeone.png in Resources */ = {isa = PBXBuildFile; fileRef = 930397241F32C13800DCA5D0 /* bubbleSomeone.png */; };
+		930397311F32C13800DCA5D0 /* bubbleSomeone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 930397251F32C13800DCA5D0 /* bubbleSomeone@2x.png */; };
+		930397331F32C13800DCA5D0 /* MKJChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 930397291F32C13800DCA5D0 /* MKJChatModel.m */; };
+		930397341F32C13800DCA5D0 /* MKJChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9303972B1F32C13800DCA5D0 /* MKJChatTableViewCell.m */; };
+		930397351F32C13800DCA5D0 /* MKJInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9303972D1F32C13800DCA5D0 /* MKJInputView.m */; };
 		930AC5511F2EDF220049E61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930AC5501F2EDF220049E61B /* Assets.xcassets */; };
 		930AC55D1F2F0DE90049E61B /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 930AC55C1F2F0DE90049E61B /* ViewController1.m */; };
 		930AC5631F2F102E0049E61B /* jiari.m in Sources */ = {isa = PBXBuildFile; fileRef = 930AC5621F2F102E0049E61B /* jiari.m */; };
@@ -103,6 +110,16 @@
 		930397121F32A90E00DCA5D0 /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
 		930397131F32A90E00DCA5D0 /* PopoverViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewCell.h; sourceTree = "<group>"; };
 		930397141F32A90E00DCA5D0 /* PopoverViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewCell.m; sourceTree = "<group>"; };
+		930397221F32C13800DCA5D0 /* bubbleMine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleMine.png; sourceTree = "<group>"; };
+		930397231F32C13800DCA5D0 /* bubbleMine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleMine@2x.png"; sourceTree = "<group>"; };
+		930397241F32C13800DCA5D0 /* bubbleSomeone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubbleSomeone.png; sourceTree = "<group>"; };
+		930397251F32C13800DCA5D0 /* bubbleSomeone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bubbleSomeone@2x.png"; sourceTree = "<group>"; };
+		930397281F32C13800DCA5D0 /* MKJChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJChatModel.h; sourceTree = "<group>"; };
+		930397291F32C13800DCA5D0 /* MKJChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJChatModel.m; sourceTree = "<group>"; };
+		9303972A1F32C13800DCA5D0 /* MKJChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJChatTableViewCell.h; sourceTree = "<group>"; };
+		9303972B1F32C13800DCA5D0 /* MKJChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJChatTableViewCell.m; sourceTree = "<group>"; };
+		9303972C1F32C13800DCA5D0 /* MKJInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKJInputView.h; sourceTree = "<group>"; };
+		9303972D1F32C13800DCA5D0 /* MKJInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKJInputView.m; sourceTree = "<group>"; };
 		930AC5501F2EDF220049E61B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		930AC55B1F2F0DE90049E61B /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
 		930AC55C1F2F0DE90049E61B /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
@@ -186,6 +203,23 @@
 			path = "Share2Tests/Popover的副本/PopoverView";
 			sourceTree = SOURCE_ROOT;
 		};
+		930397211F32C13800DCA5D0 /* 聊天 */ = {
+			isa = PBXGroup;
+			children = (
+				930397221F32C13800DCA5D0 /* bubbleMine.png */,
+				930397231F32C13800DCA5D0 /* bubbleMine@2x.png */,
+				930397241F32C13800DCA5D0 /* bubbleSomeone.png */,
+				930397251F32C13800DCA5D0 /* bubbleSomeone@2x.png */,
+				930397281F32C13800DCA5D0 /* MKJChatModel.h */,
+				930397291F32C13800DCA5D0 /* MKJChatModel.m */,
+				9303972A1F32C13800DCA5D0 /* MKJChatTableViewCell.h */,
+				9303972B1F32C13800DCA5D0 /* MKJChatTableViewCell.m */,
+				9303972C1F32C13800DCA5D0 /* MKJInputView.h */,
+				9303972D1F32C13800DCA5D0 /* MKJInputView.m */,
+			);
+			path = "聊天";
+			sourceTree = "<group>";
+		};
 		930B9A1E1F2ABA6C00A65C61 /* 文章 */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +234,7 @@
 		930B9A1F1F2ABA7C00A65C61 /* 活动 */ = {
 			isa = PBXGroup;
 			children = (
+				930397211F32C13800DCA5D0 /* 聊天 */,
 				93524BBE1F29C8F2002B9956 /* ViewController4.h */,
 				93524BBF1F29C8F2002B9956 /* ViewController4.m */,
 				930B9A2D1F2ACD9900A65C61 /* Data3.h */,
@@ -461,8 +496,12 @@
 			files = (
 				930B9A261F2AC36500A65C61 /* Data 2.plist in Resources */,
 				93524B881F297D7C002B9956 /* LaunchScreen.storyboard in Resources */,
+				9303972F1F32C13800DCA5D0 /* bubbleMine@2x.png in Resources */,
+				930397311F32C13800DCA5D0 /* bubbleSomeone@2x.png in Resources */,
+				9303972E1F32C13800DCA5D0 /* bubbleMine.png in Resources */,
 				93524BD11F29E0D8002B9956 /* Data 1.plist in Resources */,
 				93524B831F297D7B002B9956 /* Main.storyboard in Resources */,
+				930397301F32C13800DCA5D0 /* bubbleSomeone.png in Resources */,
 				930AC5511F2EDF220049E61B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,6 +532,8 @@
 				930396F11F31587C00DCA5D0 /* scCell.m in Sources */,
 				930396EE1F30BFAB00DCA5D0 /* shezhi.m in Sources */,
 				930396E51F30BF7900DCA5D0 /* wdxx.m in Sources */,
+				930397331F32C13800DCA5D0 /* MKJChatModel.m in Sources */,
+				930397351F32C13800DCA5D0 /* MKJInputView.m in Sources */,
 				93524B801F297D7B002B9956 /* ViewController.m in Sources */,
 				93524B7D1F297D7B002B9956 /* AppDelegate.m in Sources */,
 				930396D91F3077E600DCA5D0 /* fabiaoViewController.m in Sources */,
@@ -504,6 +545,7 @@
 				930397031F32031A00DCA5D0 /* xx_sx_dh.m in Sources */,
 				93524BB41F29C827002B9956 /* MyViewController.m in Sources */,
 				930AC5631F2F102E0049E61B /* jiari.m in Sources */,
+				930397341F32C13800DCA5D0 /* MKJChatTableViewCell.m in Sources */,
 				930396DC1F30B2DB00DCA5D0 /* tupian.m in Sources */,
 				930396FD1F3202E200DCA5D0 /* xx_xgz.m in Sources */,
 				93524B7A1F297D7B002B9956 /* main.m in Sources */,
