@@ -9,6 +9,7 @@
 #import "tupian.h"
 #import "MycollViewCell.h"
 
+
 @interface tupian ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 
 @end
@@ -17,6 +18,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    UIButton *rightButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    rightButton.frame = CGRectMake(0, 0, 50, 25);
+//    [rightButton setBackgroundImage: forState:UIControlStateNormal];
+    rightButton.layer.borderColor = [UIColor whiteColor].CGColor;
+    rightButton.layer.borderWidth = 2;
+    rightButton.layer.cornerRadius = 5;
+    rightButton.layer.masksToBounds = YES;
+    [rightButton setTitle:@"上传" forState:UIControlStateNormal];
+    [rightButton setBackgroundColor:[UIColor colorWithRed:80/255.0 green:152/255.0 blue:197/255.0 alpha:1]];
+    [rightButton addTarget:self action:@selector(shangchuan) forControlEvents:UIControlEventTouchUpInside];
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithCustomView:rightButton];
+    self.navigationItem.rightBarButtonItem = rightItem;
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"返回"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(touchLeft)];
     
@@ -41,6 +55,25 @@ forCellWithReuseIdentifier:@"cell"];
     [cv registerClass:[UICollectionReusableView class]
 forSupplementaryViewOfKind:UICollectionElementKindSectionHeader
   withReuseIdentifier:@"header"];
+}
+- (void)shangchuan
+{
+    UIAlertController *control = [UIAlertController alertControllerWithTitle:@"选择" message:@"是否要上传" preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *act1 = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    UIAlertAction *act2 = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    
+    [control addAction:act1];
+    [control addAction:act2];
+    
+    [self presentViewController:control animated:YES completion:^{
+        
+    }];
+
 }
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
@@ -71,6 +104,7 @@ forSupplementaryViewOfKind:UICollectionElementKindSectionHeader
 {
     [self.navigationController popViewControllerAnimated:NO];
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

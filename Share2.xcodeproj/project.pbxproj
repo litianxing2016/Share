@@ -19,6 +19,12 @@
 		930396F41F31702D00DCA5D0 /* sz_jbzl.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396F31F31702D00DCA5D0 /* sz_jbzl.m */; };
 		930396F71F31703B00DCA5D0 /* sz_xgmm.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396F61F31703B00DCA5D0 /* sz_xgmm.m */; };
 		930396FA1F31704B00DCA5D0 /* sz_xxsz.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396F91F31704B00DCA5D0 /* sz_xxsz.m */; };
+		930396FD1F3202E200DCA5D0 /* xx_xgz.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396FC1F3202E200DCA5D0 /* xx_xgz.m */; };
+		930397001F32030600DCA5D0 /* xx_sx.m in Sources */ = {isa = PBXBuildFile; fileRef = 930396FF1F32030600DCA5D0 /* xx_sx.m */; };
+		930397031F32031A00DCA5D0 /* xx_sx_dh.m in Sources */ = {isa = PBXBuildFile; fileRef = 930397021F32031A00DCA5D0 /* xx_sx_dh.m */; };
+		9303971D1F32A90E00DCA5D0 /* PopoverAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 930397101F32A90E00DCA5D0 /* PopoverAction.m */; };
+		9303971E1F32A90E00DCA5D0 /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 930397121F32A90E00DCA5D0 /* PopoverView.m */; };
+		9303971F1F32A90E00DCA5D0 /* PopoverViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 930397141F32A90E00DCA5D0 /* PopoverViewCell.m */; };
 		930AC5511F2EDF220049E61B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930AC5501F2EDF220049E61B /* Assets.xcassets */; };
 		930AC55D1F2F0DE90049E61B /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 930AC55C1F2F0DE90049E61B /* ViewController1.m */; };
 		930AC5631F2F102E0049E61B /* jiari.m in Sources */ = {isa = PBXBuildFile; fileRef = 930AC5621F2F102E0049E61B /* jiari.m */; };
@@ -85,6 +91,18 @@
 		930396F61F31703B00DCA5D0 /* sz_xgmm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sz_xgmm.m; sourceTree = "<group>"; };
 		930396F81F31704B00DCA5D0 /* sz_xxsz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sz_xxsz.h; sourceTree = "<group>"; };
 		930396F91F31704B00DCA5D0 /* sz_xxsz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sz_xxsz.m; sourceTree = "<group>"; };
+		930396FB1F3202E200DCA5D0 /* xx_xgz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xx_xgz.h; sourceTree = "<group>"; };
+		930396FC1F3202E200DCA5D0 /* xx_xgz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xx_xgz.m; sourceTree = "<group>"; };
+		930396FE1F32030600DCA5D0 /* xx_sx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xx_sx.h; sourceTree = "<group>"; };
+		930396FF1F32030600DCA5D0 /* xx_sx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xx_sx.m; sourceTree = "<group>"; };
+		930397011F32031A00DCA5D0 /* xx_sx_dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xx_sx_dh.h; sourceTree = "<group>"; };
+		930397021F32031A00DCA5D0 /* xx_sx_dh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xx_sx_dh.m; sourceTree = "<group>"; };
+		9303970F1F32A90E00DCA5D0 /* PopoverAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverAction.h; sourceTree = "<group>"; };
+		930397101F32A90E00DCA5D0 /* PopoverAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverAction.m; sourceTree = "<group>"; };
+		930397111F32A90E00DCA5D0 /* PopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView.h; sourceTree = "<group>"; };
+		930397121F32A90E00DCA5D0 /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
+		930397131F32A90E00DCA5D0 /* PopoverViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewCell.h; sourceTree = "<group>"; };
+		930397141F32A90E00DCA5D0 /* PopoverViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewCell.m; sourceTree = "<group>"; };
 		930AC5501F2EDF220049E61B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		930AC55B1F2F0DE90049E61B /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
 		930AC55C1F2F0DE90049E61B /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
@@ -154,9 +172,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9303970E1F32A90E00DCA5D0 /* PopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				9303970F1F32A90E00DCA5D0 /* PopoverAction.h */,
+				930397101F32A90E00DCA5D0 /* PopoverAction.m */,
+				930397111F32A90E00DCA5D0 /* PopoverView.h */,
+				930397121F32A90E00DCA5D0 /* PopoverView.m */,
+				930397131F32A90E00DCA5D0 /* PopoverViewCell.h */,
+				930397141F32A90E00DCA5D0 /* PopoverViewCell.m */,
+			);
+			name = PopoverView;
+			path = "Share2Tests/Popover的副本/PopoverView";
+			sourceTree = SOURCE_ROOT;
+		};
 		930B9A1E1F2ABA6C00A65C61 /* 文章 */ = {
 			isa = PBXGroup;
 			children = (
+				9303970E1F32A90E00DCA5D0 /* PopoverView */,
 				93524BBB1F29C8ED002B9956 /* ViewController3.h */,
 				93524BBC1F29C8ED002B9956 /* ViewController3.m */,
 				930B9A251F2AC36500A65C61 /* Data 2.plist */,
@@ -188,6 +221,12 @@
 				930396F01F31587C00DCA5D0 /* scCell.m */,
 				930396E31F30BF7900DCA5D0 /* wdxx.h */,
 				930396E41F30BF7900DCA5D0 /* wdxx.m */,
+				930396FB1F3202E200DCA5D0 /* xx_xgz.h */,
+				930396FC1F3202E200DCA5D0 /* xx_xgz.m */,
+				930396FE1F32030600DCA5D0 /* xx_sx.h */,
+				930396FF1F32030600DCA5D0 /* xx_sx.m */,
+				930397011F32031A00DCA5D0 /* xx_sx_dh.h */,
+				930397021F32031A00DCA5D0 /* xx_sx_dh.m */,
 				930396E01F30BF6100DCA5D0 /* wdtj.h */,
 				930396E11F30BF6100DCA5D0 /* wdtj.m */,
 				930396E91F30BFA000DCA5D0 /* yxtz.h */,
@@ -457,15 +496,20 @@
 				93524B801F297D7B002B9956 /* ViewController.m in Sources */,
 				93524B7D1F297D7B002B9956 /* AppDelegate.m in Sources */,
 				930396D91F3077E600DCA5D0 /* fabiaoViewController.m in Sources */,
+				9303971D1F32A90E00DCA5D0 /* PopoverAction.m in Sources */,
 				930B9A2F1F2ACD9900A65C61 /* Data3.m in Sources */,
 				930396F41F31702D00DCA5D0 /* sz_jbzl.m in Sources */,
 				930B9A291F2AC77700A65C61 /* TableViewCell2.m in Sources */,
 				93EB3F471F2A0FE5008DF89B /* head.m in Sources */,
+				930397031F32031A00DCA5D0 /* xx_sx_dh.m in Sources */,
 				93524BB41F29C827002B9956 /* MyViewController.m in Sources */,
 				930AC5631F2F102E0049E61B /* jiari.m in Sources */,
 				930396DC1F30B2DB00DCA5D0 /* tupian.m in Sources */,
+				930396FD1F3202E200DCA5D0 /* xx_xgz.m in Sources */,
 				93524B7A1F297D7B002B9956 /* main.m in Sources */,
 				930396E81F30BF9200DCA5D0 /* wdsc.m in Sources */,
+				930397001F32030600DCA5D0 /* xx_sx.m in Sources */,
+				9303971E1F32A90E00DCA5D0 /* PopoverView.m in Sources */,
 				930396DF1F30B32200DCA5D0 /* MycollViewCell.m in Sources */,
 				93524BC31F29C8F7002B9956 /* ViewController5.m in Sources */,
 				930396FA1F31704B00DCA5D0 /* sz_xxsz.m in Sources */,
@@ -473,6 +517,7 @@
 				93524BBA1F29C8E8002B9956 /* ViewController2.m in Sources */,
 				93524BCC1F29D2E3002B9956 /* TableViewCell1.m in Sources */,
 				930396E21F30BF6100DCA5D0 /* wdtj.m in Sources */,
+				9303971F1F32A90E00DCA5D0 /* PopoverViewCell.m in Sources */,
 				93524BBD1F29C8ED002B9956 /* ViewController3.m in Sources */,
 				93524BC01F29C8F2002B9956 /* ViewController4.m in Sources */,
 				93524BCF1F29D987002B9956 /* Status1.m in Sources */,

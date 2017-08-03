@@ -8,8 +8,14 @@
 
 #import "fabiaoViewController.h"
 #import "tupian.h"
+#import "PopoverView.h"
 
 @interface fabiaoViewController ()
+{
+    UITextField *fil;
+    UIButton *but2;
+}
+@property (weak, nonatomic) IBOutlet UILabel *noticeLabel;
 
 @end
 
@@ -21,7 +27,7 @@
     
     UIView *vie1 = [[UIView alloc] initWithFrame:CGRectMake(10, 74, 394, 150)];
     
-    vie1.backgroundColor = [UIColor yellowColor];
+//    vie1.backgroundColor = [UIColor yellowColor];
     UIButton *imaB = [UIButton buttonWithType:UIButtonTypeCustom];
     imaB.frame = CGRectMake(0, 0, 250, 150);
     [imaB setBackgroundImage:[UIImage imageNamed:@"222.jpg"] forState:UIControlStateNormal];
@@ -29,17 +35,40 @@
     [vie1 addSubview:imaB];
     
     UIImageView *imaV2 = [[UIImageView alloc] initWithFrame:CGRectMake(280, 40, 20, 20)];
-    imaV2.backgroundColor = [UIColor blueColor];
+    imaV2.image = [UIImage imageNamed:@"坐标"];
+
     [vie1 addSubview:imaV2];
     
     UIButton *but1 = [UIButton buttonWithType:UIButtonTypeCustom];
-    but1.frame = CGRectMake(310, 40, 60, 20);
-    but1.backgroundColor = [UIColor blueColor];
+    but1.frame = CGRectMake(300, 40, 80, 20);
+    [but1 setBackgroundImage:[UIImage imageNamed:@"background_main"] forState:UIControlStateNormal];
+    [but1 setTitle:@"陕西省,西安市" forState:UIControlStateNormal];
+    but1.titleLabel.font = [UIFont systemFontOfSize:11];
+    but1.layer.cornerRadius = 10;
+    but1.layer.masksToBounds = YES;
+    [but1 setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [vie1 addSubview:but1];
     
-    UIButton *but2 = [UIButton buttonWithType:UIButtonTypeCustom];
-    but2.frame = CGRectMake(280, 70, 90, 20);
-    but2.backgroundColor = [UIColor blueColor];
+    fil = [[UITextField alloc] initWithFrame:CGRectMake(280, 70, 110, 30)];
+    fil.layer.borderWidth = 1;
+    fil.layer.cornerRadius = 5;
+    fil.layer.masksToBounds = YES;
+    fil.enabled = NO;
+    fil.text = @" 原创作品";
+    fil.font = [UIFont systemFontOfSize:11];
+    [vie1 addSubview:fil];
+    
+    but2 = [UIButton buttonWithType:UIButtonTypeCustom];
+    but2.frame = CGRectMake(350, 70, 40, 30);
+    but2.backgroundColor = [UIColor whiteColor];
+    but2.layer.borderColor = [UIColor blackColor].CGColor;
+    but2.layer.borderWidth = 1;
+    but2.layer.cornerRadius = 5;
+    but2.layer.masksToBounds = YES;
+    [but2 setBackgroundImage:[UIImage imageNamed:@"background_main"] forState:UIControlStateNormal];
+    [but2 setImage:[UIImage imageNamed:@"左三角"] forState:UIControlStateNormal];
+    [but2 setImage:[UIImage imageNamed:@"下三角"] forState:UIControlStateSelected];
+    [but2 addTarget:self action:@selector(showWithoutImage:) forControlEvents:UIControlEventTouchUpInside];
     [vie1 addSubview:but2];
     
     UIImageView *imaV3 = [[UIImageView alloc] initWithFrame:CGRectMake(-10, 145, 414, 20)];
@@ -52,7 +81,11 @@
     
     UIButton *b1 = [UIButton buttonWithType:UIButtonTypeCustom];
     b1.frame = CGRectMake(10, 240, 90, 30);
-    b1.backgroundColor = [UIColor grayColor];
+    b1.backgroundColor = [UIColor whiteColor];
+    [b1 setTitle:@"平面设计" forState:UIControlStateNormal];
+    b1.layer.cornerRadius = 5;
+    b1.layer.masksToBounds = YES;
+    [b1 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [self.view addSubview:b1];
     
     UIButton *b2 = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -106,12 +139,12 @@
     
     UIButton *butt = [UIButton buttonWithType:UIButtonTypeCustom];
     butt.frame = CGRectMake(10, 520, 394, 35);
-    butt.backgroundColor = [UIColor blueColor];
+    [butt setBackgroundImage:[UIImage imageNamed:@"background_main"] forState:UIControlStateNormal];
     [butt setTitle:@"发表" forState:UIControlStateNormal];
     [butt setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [self.view addSubview:butt];
     
-    //自动登录button
+    
     UIView *vi3 = [[UIView alloc] initWithFrame:CGRectMake(10, 560, 150, 25)];
     UIButton *butt3 = [[UIButton alloc] initWithFrame:CGRectMake(0, 2.5, 20, 20)];
     UIImage *image30 = [UIImage imageNamed:@"checkbox_unchecked"];
@@ -147,7 +180,31 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (IBAction)showWithoutImage:(UIButton *)sender {
+    // 不带图片
+    sender.selected = !sender.selected;
+    PopoverAction *action1 = [PopoverAction actionWithTitle:@"设计资料" handler:^(PopoverAction *action) {
+        _noticeLabel.text = action.title;
+        fil.text = @" 设计资料";
+        sender.selected = !sender.selected;
+    }];
+    PopoverAction *action2 = [PopoverAction actionWithTitle:@"设计师观点" handler:^(PopoverAction *action) {
+        _noticeLabel.text = action.title;
+        fil.text = @" 设计师观点";
+        sender.selected = !sender.selected;
+    }];
+    PopoverAction *action3 = [PopoverAction actionWithTitle:@"设计教程" handler:^(PopoverAction *action) {
+        _noticeLabel.text = action.title;
+        fil.text = @" 设计教程";
+        sender.selected = !sender.selected;
+    }];
+    
+    PopoverView *popoverView = [PopoverView popoverView];
+    popoverView.style = PopoverViewStyleDark;
+    popoverView.hideAfterTouchOutside = NO; // 点击外部时不允许隐藏
+    [popoverView showToView:sender withActions:@[action1, action2, action3]];
+    
+}
 /*
 #pragma mark - Navigation
 

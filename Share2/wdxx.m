@@ -7,6 +7,8 @@
 //
 
 #import "wdxx.h"
+#import "xx_xgz.h"
+#import "xx_sx.h"
 
 @interface wdxx ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -113,6 +115,22 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     return 60;
+}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row == 2) {
+        xx_xgz *NewView = [[xx_xgz alloc]init];
+        self.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:NewView animated:NO];
+        self.hidesBottomBarWhenPushed = NO;
+    }
+    if (indexPath.row == 3) {
+        xx_sx *NewView = [[xx_sx alloc]init];
+        self.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:NewView animated:NO];
+        self.hidesBottomBarWhenPushed = NO;
+    }
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
