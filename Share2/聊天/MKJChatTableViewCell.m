@@ -45,14 +45,14 @@
         // 当输入只有一个行的时候高度就是20多一点
         self.headImageView.frame = CGRectMake(10, rec.size.height - 18, 50, 50);
         self.backView.frame = CGRectMake(60, 10, rec.size.width + 20, rec.size.height + 20);
-        image = [UIImage imageNamed:@"bubbleSomeone"];
+//        image = [UIImage imageNamed:@"bubbleSomeone"];
         headImage = [UIImage imageNamed:@"sixin_img2"];
     }
     else // 模拟右边
     {
         self.headImageView.frame = CGRectMake(375 - 60, rec.size.height - 18, 50, 50);
         self.backView.frame = CGRectMake(375 - 60 - rec.size.width - 20, 10, rec.size.width + 20, rec.size.height + 20);
-        image = [UIImage imageNamed:@"bubbleMine"];
+//        image = [UIImage imageNamed:@"bubbleMine"];
         headImage = [UIImage imageNamed:@"sixin_img1"];
 //        image.leftCapWidth		
     }

@@ -35,7 +35,7 @@
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"返回"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(touchLeft)];
     
-    UIView *vie = [[UIView alloc]initWithFrame:CGRectMake(10, 0, 414-20, 1300)];
+    UIView *vie = [[UIView alloc]initWithFrame:CGRectMake(10, 0, 414-20, 1265)];
     
     UILabel *lab1 = [[UILabel alloc] initWithFrame:CGRectMake(10, 0, 394, 20)];
     lab1.text = @"多希望列车能把我带到有你的城市";

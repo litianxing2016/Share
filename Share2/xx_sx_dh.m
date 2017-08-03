@@ -28,23 +28,23 @@ static NSString *identify = @"MKJChatTableViewCell";
     
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[[UIImage imageNamed:@"返回"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(touchLeft)];
     
-    self.navigationItem.title = @"与share小兰对话";
-    self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:NSForegroundColorAttributeName];
+//    self.navigationItem.title = @"与share小兰对话";
+//    self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:NSForegroundColorAttributeName];
+//    
+//    UIButton *buttonOne = [UIButton buttonWithType:UIButtonTypeCustom];
+//    buttonOne.frame = CGRectMake(10, 25, 30, 20);
+//    [buttonOne setImage:[UIImage imageNamed:@"back_img"] forState:UIControlStateNormal];
+//    [buttonOne addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+//    
+//    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(40, 0, 100, 20)];
+//    label.textColor = [UIColor whiteColor];
+//    label.text = @"share小兰";
+//    [buttonOne addSubview:label];
     
-    UIButton *buttonOne = [UIButton buttonWithType:UIButtonTypeCustom];
-    buttonOne.frame = CGRectMake(10, 25, 30, 20);
-    [buttonOne setImage:[UIImage imageNamed:@"back_img"] forState:UIControlStateNormal];
-    [buttonOne addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
-    
-    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(40, 0, 100, 20)];
-    label.textColor = [UIColor whiteColor];
-    label.text = @"share小兰";
-    [buttonOne addSubview:label];
-    
-    UIView *imageView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 414, 64)];
-    imageView.backgroundColor = [UIColor colorWithRed:53.0/255 green:143.0/255 blue:203.0/255 alpha:1];
-    [self.view addSubview:imageView];
-    [imageView addSubview:buttonOne];
+//    UIView *imageView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, 414, 64)];
+//    imageView.backgroundColor = [UIColor colorWithRed:53.0/255 green:143.0/255 blue:203.0/255 alpha:1];
+//    [self.view addSubview:imageView];
+//    [imageView addSubview:buttonOne];
     
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, 414, 736 - 64 - 30) style:UITableViewStylePlain];
